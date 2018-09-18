@@ -1,0 +1,25 @@
+﻿"""
+# @FileName    : 项目说明文档.txt
+# @Date        : 2018/9/17
+# @By          : 三的拱门
+# @Email       : 1304787581@qq.com
+# @Platform    : PyCharm ,Python3.7
+# @Explain     : 图书管理系统---说明文档
+"""
+实现功能：
+    一 :登录与注册，管理者默认的用户名为admin，密码为，admin
+    二 :(student)1.借书   2.还书  3.一键还掉所有书   4.显示借书情况  5.显示个人信息 6.修改登录密码
+    三 :(manager)1.显示图书馆藏书 2.查看学生借书情况 3.显示个人信息  4.修改登录密码
+    四 :信息存储
+
+python源文件：
+   main.py.py      : 系统运行入口
+   process_deal.py : 处理普通用户和管理者的各种操作
+   Interface.py    : 调用系统界面的接口，用于显示与输入
+   user_class.py   : 普通用户和管理者的类，包含基本的类操作函数以及数据结构
+   SourceModel.py  : python的注释模版
+
+Source 文档：
+   Source_manager.txt     :包含管理者的登录用户名和登录，默认分别为admin，admin
+   Source_user.txt        :包含系统所有的普通用户信息，包括每个用户的：职位， 名称 ，密码 ，借书种类数，借书数目与数量
+   Source_lib_books.txt   :包含图书馆的藏书情况
